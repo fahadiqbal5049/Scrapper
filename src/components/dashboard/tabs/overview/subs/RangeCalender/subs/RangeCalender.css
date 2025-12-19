@@ -1,0 +1,120 @@
+/* calender custom styles ----------------------------->  */
+
+.rmdp-calendar {
+  margin: auto !important;
+}
+
+.rmdp-day-picker {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.rmdp-week{
+  margin-bottom: 8px !important;
+}
+
+.rmdp-container > div:nth-of-type(2) {
+  /* transform: translate(0px, 50px) !important; */
+  /* top: 45px !important; */
+}
+
+.rmdp-ep-arrow[direction="top"]:after {
+  display: none;
+}
+.rmdp-ep-arrow[direction="top"] {
+  display: none;
+}
+
+.rmdp-input {
+  display: none;
+}
+.rmdp-wrapper {
+  background-color: #1e252c !important;
+}
+
+.rmdp-shadow {
+  box-shadow: none !important;
+}
+.rmdp-header-values {
+  font-size: 20px !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.rmdp-arrow-container {
+  background-color: #2d363d !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.rmdp-arrow {
+  border-color: white !important;
+  margin-top: 0px !important;
+  margin: 0px !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.rmdp-week {
+  text-transform: uppercase !important;
+}
+
+.rmdp-week-day {
+  color: white !important;
+}
+
+.rmdp-calendar {
+  width: 350px;
+}
+
+.rmdp-week {
+  width: 300px !important;
+}
+
+.rmdp-range {
+  background-color: #fb0079b3 !important;
+  box-shadow: none !important;
+}
+
+.rmdp-day span:hover {
+  background-color: #fb0079b3 !important;
+}
+
+.rmdp-day {
+  color: #a3a3a3 !important;
+}
+
+.rmdp-today span {
+  background-color: #fb0079b3 !important;
+}
+
+/* montly range picker ------------> */
+.rmdp-month-picker {
+  background-color: #1e252c !important;
+  margin: auto !important;
+}
+.montly-range .rmdp-ym {
+  height: 20% !important;
+}
+
+.rmdp-day.rmdp-selected span:not(.highlight) {
+  box-shadow: none !important;
+}
+
+.rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: #fb0079b3 !important;
+}
+
+/* .montly-range .rmdp-container > div:nth-of-type(2) {
+    top: 35px !important;
+  
+  } */
+
+/* yearly range picker ------------>  */
+
+.rmdp-year-picker {
+  background-color: #1e252c !important;
+  margin: auto !important;
+}
